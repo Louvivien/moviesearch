@@ -1,4 +1,4 @@
-# Le club privé (test rails) - projet THP
+# Movie Search
 
 ## Après avoir cloné le repo
 
