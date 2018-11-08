@@ -1,0 +1,17 @@
+<!-- Highlights - jumbotron -->
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">Choisis ton flim :</h3>
+			 </br>
+			<div class="text-center thin">
+				<!-- Insert du service ICI  -->
+				<%= form_for(:request, url: search_path) do |f| %>
+			      <td><%= f.text_field :name, placeholder: "Titre du film" %></td>
+			      <td><%= f.submit "Lancer la recherche", class: "btn btn-danger" %></td>
+			     <% end %>
+			</div> <!-- /row  -->
+		
+		</div>
+	</div>
+	<!-- /Highlights -->

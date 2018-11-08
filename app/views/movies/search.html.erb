@@ -1,0 +1,39 @@
+<!-- Highlights - jumbotron -->
+	<div class="jumbotron top-space">
+		<div class="container">
+			
+			<h3 class="text-center thin">Search result :</h3>
+			
+
+				<table class="table">
+				  <thead>
+				    <tr>
+				      <th scope="col">Poster</th>
+				      <th scope="col">Title</th>
+				      <th scope="col">Release date</th>
+				      <th scope="col">Rating</th>
+				    </tr>
+				  </thead>
+				  <% if @search_results[:results][0]==nil %>
+						<p style="padding-top: 40px;"> SORRY BUT NOTHING COULD BE FOUND</p>
+					<% else %>
+						<% @search_results[:results].each do |s| %>
+				  <tbody>
+				    <tr><% if s.backdrop_path == nil %>
+					    		<% else %>
+				      <td>
+					    		<img src= <%= "https://image.tmdb.org/t/p/w500/"+s.poster_path.to_s %> style="max-width:25%; max-height:25%;">
+			    		</td>
+				      <td><%= s.title %></td>
+				      <td><%= s.release_date %></td>
+				      <td><%= s.vote_average %> </td>
+				    </tr>
+			  				<% end %>
+							<% end %>
+						<% end %>
+				  </tbody>
+				</table>
+		
+		</div>
+	</div>
+	<!-- /Highlights -->
