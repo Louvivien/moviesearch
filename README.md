@@ -1,24 +1,22 @@
-# README
+# Le club privé (test rails) - projet THP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Après avoir cloné le repo
 
-Things you may want to cover:
+- `bundle install`
 
-* Ruby version
+- `rails db:migrate`
 
-* System dependencies
+## L'application
 
-* Configuration
+### Heroku
 
-* Database creation
+Vous trouverez l'application hébergée sur Heroku au lien suivant : xxxxx
 
-* Database initialization
+### Le projet
 
-* How to run the test suite
+- Se connecte à themoviedb
+- Retourne les films
 
-* Services (job queues, cache servers, search engines, etc.)
+## La team
 
-* Deployment instructions
-
-* ...
+Ce programme est made in Station F by P. de la Tour & F. Pinto & A. Reau & C. Avronsart & L. Martin du Nord & V. Richaud  avec amour ! Bonne correction les amis :kissing_heart:
