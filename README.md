@@ -10,7 +10,7 @@
 
 ### Heroku
 
-Vous trouverez l'application hébergée sur Heroku au lien suivant : xxxxx
+Vous trouverez l'application hébergée sur Heroku au lien suivant : https://movieseach.herokuapp.com/
 
 ### Le projet
 
